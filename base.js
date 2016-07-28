@@ -112,7 +112,6 @@ module.exports = {
     'no-restricted-modules' : [ 'error' ],
 
     // es6
-    'arrow-body-style' : [ 'error', 'as-needed' ],
     // 'arrow-parens': [ 'error', 'always' ], // @todo this causes issues for async arrow functions
     'arrow-spacing' : [ 'error' ],
     'constructor-super' : [ 'error' ],
