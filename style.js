@@ -31,7 +31,6 @@ module.exports = {
     'no-trailing-spaces' : [ 'error' ],
     'no-unneeded-ternary' : [ 'error' ],
     'no-whitespace-before-property' : [ 'error' ],
-    'object-curly-newline' : [ 'error', { multiline : true, minProperties : 3 } ],
     'quote-props' : [ 'error', 'consistent-as-needed' ],
     'quotes' : [ 'error', 'single', 'avoid-escape' ],
     'semi' : [ 'error', 'always' ],
