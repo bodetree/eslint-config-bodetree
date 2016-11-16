@@ -9,7 +9,7 @@ module.exports = {
     },
   },
   rules : {
-    'react/jsx-boolean-value' : [ 'error' ],
+    'react/jsx-boolean-value' : [ 'error', 'always' ],
     'react/jsx-closing-bracket-location' : [ 'error' ],
     'react/jsx-curly-spacing' : [ 'error', 'never' ],
     'react/jsx-equals-spacing' : [ 'error', 'never' ],
