@@ -21,7 +21,6 @@ module.exports = {
     'multiline-ternary' : [ 'error', 'never' ],
     'new-cap' : [ 'warn', { capIsNew : false } ],
     'new-parens' : [ 'error' ],
-    'newline-per-chained-call' : [ 'error', { ignoreChainWithDepth : 3 } ],
     'no-array-constructor' : [ 'error' ],
     'no-bitwise' : [ 'error' ],
     'no-empty-function' : [ 'warn' ],

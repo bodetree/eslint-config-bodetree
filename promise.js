@@ -3,7 +3,6 @@ module.exports = {
   rules : {
     // eslint-plugin-promise
     'promise/catch-or-return' : [ 'warn', { terminationMethod : [ 'catch', 'asCallback', 'finally' ] } ],
-    'promise/no-return-wrap' : [ 'warn' ],
     'promise/param-names' : [ 'error' ],
 
     'promise/always-return' : [ 'off' ],
