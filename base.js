@@ -72,7 +72,7 @@ module.exports = {
     'no-multi-spaces' : [ 'error' ],
     'no-multi-str' : [ 'error' ],
     'no-native-reassign' : [ 'error' ],
-    'no-negated-condition' : [ 'error' ],
+    'no-negated-condition' : [ 'off' ],
     'no-new-func' : [ 'error' ],
     'no-new-wrappers' : [ 'error' ],
     'no-octal' : [ 'error' ],
