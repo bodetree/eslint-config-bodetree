@@ -7,6 +7,7 @@ module.exports = {
 
     'promise/always-return' : [ 'off' ],
     'promise/no-native' : [ 'off' ],
+    'promise/no-return-wrap' : [ 'off' ],
     'promise/prefer-await-to-callbacks' : [ 'off' ],
     'promise/prefer-await-to-then' : [ 'off' ],
   }

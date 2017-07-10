@@ -13,6 +13,7 @@ module.exports = {
   },
   rules : {
     // possible errors
+    'no-await-in-loop' : [ 'error' ],
     'no-cond-assign' : [ 'error' ],
     'no-console' : [ 'warn' ],
     'no-constant-condition' : [ 'warn' ],
@@ -121,6 +122,7 @@ module.exports = {
     'no-restricted-modules' : [ 'error' ],
 
     // es6
+    'arrow-parens' : [ 'error', 'always' ],
     'arrow-spacing' : [ 'error' ],
     'constructor-super' : [ 'error' ],
     'no-class-assign' : [ 'error' ],
@@ -143,7 +145,6 @@ module.exports = {
     // unused
     'array-bracket-spacing' : [ 'off' ],
     'arrow-body-style' : [ 'off' ],
-    'arrow-parens' : [ 'off' ],
     'block-scoped-var' : [ 'off' ],
     'block-spacing' : [ 'off' ],
     'class-methods-use-this' : [ 'off' ],
@@ -169,6 +170,7 @@ module.exports = {
     'max-statements' : [ 'off' ],
     'newline-after-var' : [ 'off' ],
     'newline-before-return' : [ 'off' ],
+    'newline-per-chained-call' : [ 'off' ],
     'no-continue' : [ 'off' ],
     'no-div-regex' : [ 'off' ],
     'no-extra-parens' : [ 'off' ],

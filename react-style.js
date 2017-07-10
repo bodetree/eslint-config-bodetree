@@ -18,7 +18,7 @@ module.exports = {
     'react/jsx-indent' : [ 'error', TAB_WIDTH ],
     'react/jsx-indent-props' : [ 'error', TAB_WIDTH ],
     'react/jsx-max-props-per-line' : [ 'error', { maximum : 3 } ],
-    'react/jsx-space-before-closing' : [ 'error' ],
+    'react/jsx-tag-spacing' : [ 'error', { beforeSelfClosing : 'always', closingSlash : 'never', afterOpening : 'never' } ],
     'react/jsx-wrap-multilines' : [ 'error' ],
   },
 };

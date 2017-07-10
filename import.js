@@ -15,7 +15,7 @@ module.exports = {
     'import/no-named-as-default' : [ 'error' ],
     'import/no-named-as-default-member' : [ 'error' ],
     'import/no-named-default' : [ 'error' ],
-    'import/no-unassigned-import' : [ 'warn' ],
+    'import/no-unassigned-import' : [ 'off' ],
     'import/no-unresolved' : [ 'error' ],
     'import/no-webpack-loader-syntax' : [ 'warn' ],
 
