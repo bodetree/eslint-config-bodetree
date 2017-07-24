@@ -1,13 +1,6 @@
 const TAB_WIDTH = 2;
 
 module.exports = {
-  plugins : [ 'react' ],
-  parserOptions : {
-    sourceType : 'module',
-    ecmaFeatures : {
-      jsx : true,
-    },
-  },
   rules : {
     'react/jsx-boolean-value' : [ 'error', 'always' ],
     'react/jsx-closing-bracket-location' : [ 'error' ],
