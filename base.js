@@ -13,7 +13,10 @@ module.exports = {
   },
   rules : {
     // possible errors
+    'for-direction' : [ 'error' ],
+    'getter-return' : [ 'warn' ],
     'no-await-in-loop' : [ 'error' ],
+    'no-compare-neg-zero' : [ 'error' ],
     'no-cond-assign' : [ 'error' ],
     'no-console' : [ 'warn' ],
     'no-constant-condition' : [ 'warn' ],
@@ -95,7 +98,9 @@ module.exports = {
     'no-void' : [ 'warn' ],
     'no-warning-comments' : [ 'warn' ],
     'no-with' : [ 'error' ],
+    'prefer-promise-reject-errors' : [ 'error', { allowEmptyReject : true } ],
     'radix' : [ 'warn' ],
+    'require-await' : [ 'error' ],
     'wrap-iife' : [ 'error' ],
 
     // strict mode
@@ -109,12 +114,13 @@ module.exports = {
     'no-shadow-restricted-names' : [ 'error' ],
     'no-undef' : [ 'error' ],
     'no-undef-init' : [ 'error' ],
-    'no-unused-vars' : [ 'error', { args : 'none'} ],
+    'no-unused-vars' : [ 'error', { args : 'none', ignoreRestSiblings : true } ],
     'no-use-before-define' : [ 'error', 'nofunc' ],
 
     // node/commonjs environment
     'callback-return' : [ 'error', [ 'callback', 'cb', 'next', 'done' ] ],
     'handle-callback-err' : [ 'warn' ],
+    'no-buffer-constructor' : [ 'error' ],
     'no-mixed-requires' : [ 'error' ],
     'no-new-require' : [ 'error' ],
     'no-path-concat' : [ 'error' ],
@@ -129,7 +135,7 @@ module.exports = {
     'no-confusing-arrow' : [ 'error' ],
     'no-const-assign' : [ 'error' ],
     'no-dupe-class-members' : [ 'error' ],
-    'no-duplicate-imports' : [ 'error' ],
+    'no-duplicate-imports' : [ 'off' ], // superseded by import/no-duplicates
     'no-new-symbol' : [ 'error' ],
     'no-return-await' : [ 'error' ],
     'no-this-before-super' : [ 'error' ],
@@ -143,10 +149,13 @@ module.exports = {
     'rest-spread-spacing' : [ 'error', 'never' ],
 
     // unused
+    'array-bracket-newline' : [ 'off' ],
     'array-bracket-spacing' : [ 'off' ],
+    'array-element-newline' : [ 'off' ],
     'arrow-body-style' : [ 'off' ],
     'block-scoped-var' : [ 'off' ],
     'block-spacing' : [ 'off' ],
+    'capitalized-comments' : [ 'off' ],
     'class-methods-use-this' : [ 'off' ],
     'complexity' : [ 'off' ],
     'computed-property-spacing' : [ 'off' ],
@@ -174,6 +183,7 @@ module.exports = {
     'no-continue' : [ 'off' ],
     'no-div-regex' : [ 'off' ],
     'no-extra-parens' : [ 'off' ],
+    'no-implicit-coercion' : [ 'off' ],
     'no-inline-comments' : [ 'off' ],
     'no-invalid-this' : [ 'off' ],
     'no-iterator' : [ 'off' ],
@@ -197,6 +207,8 @@ module.exports = {
     'no-underscore-dangle' : [ 'off' ],
     'no-unmodified-loop-condition' : [ 'off' ],
     'no-unused-labels' : [ 'off' ],
+    'nonblock-statement-body-position' : [ 'off' ],
+    'object-curly-newline' : [ 'off' ],
     'object-curly-spacing' : [ 'off' ],
     'object-property-newline' : [ 'off' ],
     'object-shorthand' : [ 'off' ],
@@ -205,7 +217,9 @@ module.exports = {
     'operator-assignment' : [ 'off' ],
     'operator-linebreak' : [ 'off' ],
     'padded-blocks' : [ 'off' ],
+    'padding-line-between-statements' : [ 'off' ],
     'prefer-const' : [ 'off' ],
+    'prefer-destructuring' : [ 'off' ],
     'prefer-numeric-literals' : [ 'off' ],
     'prefer-reflect' : [ 'off' ],
     'prefer-template' : [ 'off' ],
@@ -217,6 +231,7 @@ module.exports = {
     'space-unary-ops' : [ 'off' ],
     'symbol-description' : [ 'off' ],
     'unicode-bom' : [ 'off' ],
+    'valid-jsdoc' : [ 'off' ],
     'vars-on-top' : [ 'off' ],
     'yield-star-spacing' : [ 'off' ],
   }

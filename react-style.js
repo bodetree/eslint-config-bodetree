@@ -2,8 +2,9 @@ const TAB_WIDTH = 2;
 
 module.exports = {
   rules : {
-    'react/jsx-boolean-value' : [ 'error', 'always' ],
+    'react/jsx-boolean-value' : [ 'off' ],
     'react/jsx-closing-bracket-location' : [ 'error' ],
+    'react/jsx-closing-tag-location' : [ 'error' ],
     'react/jsx-curly-spacing' : [ 'error', 'never' ],
     'react/jsx-equals-spacing' : [ 'error', 'never' ],
     'react/jsx-first-prop-new-line': [ 'error', 'multiline' ],

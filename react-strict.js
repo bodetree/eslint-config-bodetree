@@ -5,6 +5,7 @@ module.exports = {
     'react/forbid-prop-types' : [ 'error' ],
     'react/prefer-stateless-function' : [ 'warn' ],
     'react/prop-types' : [ 'error' ],
+    'react/require-default-props' : [ 'warn' ],
     'react/require-optimization' : [ 'warn' ],
 
     'react/jsx-no-bind' : [ 'error' ],
