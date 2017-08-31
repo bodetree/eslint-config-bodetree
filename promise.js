@@ -2,7 +2,7 @@ module.exports = {
   plugins : [ 'promise' ],
   rules : {
     // eslint-plugin-promise
-    'promise/catch-or-return' : [ 'warn', { terminationMethod : [ 'catch', 'nodeify' ] } ],
+    'promise/catch-or-return' : [ 'warn', { terminationMethod : [ 'catch', 'nodeify', 'asCallback' ] } ],
     'promise/param-names' : [ 'error' ],
     'promise/no-callback-in-promise' : [ 'warn' ],
     'promise/no-nesting' : [ 'warn' ],
